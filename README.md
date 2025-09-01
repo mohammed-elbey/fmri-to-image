@@ -55,6 +55,8 @@ You can find them in the neuropictor huggingface : [neuropictor](https://hugging
 
 The GroundingDino directory can be cloned as well from [https://github.com/IDEA-Research/GroundingDINO](https://github.com/IDEA-Research/GroundingDINO)
 
+Also a necessary file for the MLP to work is in the shared space in lustre : /srv/lustre01/project/aim_neural-7he0p8agska/shared/precomputed_clip_embeddings.pkl
+
 ### Visual Grounding Generation
 
 - **`grounding.py`** - Uses GroundingDINO to generate spatial grounding annotations for image-caption pairs. Processes COCO images with their captions to create bounding box annotations.
